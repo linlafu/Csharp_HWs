@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ9", "ДЗ9\ДЗ9.csproj", "{6660FC9F-7BBE-4AD0-9E5E-D93F9CB2EF6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ9_2.1", "ДЗ9_2.1\ДЗ9_2.1.csproj", "{6660FC9F-7BBE-4AD0-9E5E-D93F9CB2EF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ9_2.2", "ДЗ9_2.2\ДЗ9_2.2.csproj", "{043A9556-0537-4CD3-8EB6-E1CBCB8061A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{6660FC9F-7BBE-4AD0-9E5E-D93F9CB2EF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6660FC9F-7BBE-4AD0-9E5E-D93F9CB2EF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6660FC9F-7BBE-4AD0-9E5E-D93F9CB2EF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043A9556-0537-4CD3-8EB6-E1CBCB8061A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043A9556-0537-4CD3-8EB6-E1CBCB8061A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043A9556-0537-4CD3-8EB6-E1CBCB8061A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043A9556-0537-4CD3-8EB6-E1CBCB8061A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
