@@ -23,7 +23,7 @@ using System.Text.Json;
 
 //------------------------------------------------------
 
-// Задача 4
+// Задача 4-5
 class Program
 {
     static void Main(string[] args)
@@ -46,5 +46,16 @@ class Program
         // }
         Console.WriteLine(Player2.Name);
         Console.WriteLine(Player2.inventory.Length);
+        string path = Path.Combine(AppContext.BaseDirectory, "save.json");
+        File.WriteAllText(path, json);
+        GameCharacter? loadedPlayer = JsonSerializer.Deserialize<GameCharacter>(File.ReadAllText("save.json"), options);
+        if (loadedPlayer != null)
+        {
+            Console.WriteLine("=== Загруженный персонаж ===");
+            Console.WriteLine($"Имя: {loadedPlayer.Name}");
+            Console.WriteLine($"Уровень: {loadedPlayer.Level}");
+            Console.WriteLine($"Здоровье: {loadedPlayer.Health}");
+            Console.WriteLine($"Инвентарь: {string.Join(", ", loadedPlayer.inventory)}");
+        }
     }
 }
